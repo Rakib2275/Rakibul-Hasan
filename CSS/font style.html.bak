@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Learning CSS </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+       
+		<style>
+			<!--.my-style{
+				font-size:200%;
+				font-family:"Times New Roman", Times, serif;
+			}-->
+			.matemasie-regular {
+				font-family: "Matemasie", sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size:200%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="matemasie-regular"> This is Rakibul Hasan </p>
+	</body>
+</html>

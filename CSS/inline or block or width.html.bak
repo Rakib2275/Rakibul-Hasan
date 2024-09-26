@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inline or block</title>
+	<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <h1> This is h1 </h1><br>
+	<h2> This is h2 </h2>
+	<div class="e1">
+	The Islamic State group claimed responsibility for the deadly stabbing spree at a festival in Germany on Friday that left three people dead and eight others injured.
+
+	The group said the attacker targeted Christians and was a "soldier of the Islamic State" who carried out the attack "to avenge Muslims in Palestine and everywhere." 
+
+	German police previously said that there was no other obvious motive other than terror and that the attacker appeared to be unknown to the victims.
+
+	Late Saturday, authorities said that they had arrested a second person, along with a 15-year-old boy, in connection to the attack.
+	</div>
+	
+	<div class="e2">
+	The Islamic State group claimed responsibility for the deadly stabbing spree at a festival in Germany on Friday that left three people dead and eight others injured.
+
+	The group said the attacker targeted Christians and was a "soldier of the Islamic State" who carried out the attack "to avenge Muslims in Palestine and everywhere." 
+
+	German police previously said that there was no other obvious motive other than terror and that the attacker appeared to be unknown to the victims.
+
+	Late Saturday, authorities said that they had arrested a second person, along with a 15-year-old boy, in connection to the attack.
+	</div>
+	
+</body>
+
+</html>

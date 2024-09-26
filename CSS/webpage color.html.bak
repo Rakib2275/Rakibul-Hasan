@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Learning CSS </title>
+		
+       
+		<style>
+			body{
+				background-color:#2F84EA;
+			}
+			
+			h1{
+				color:#C40E8A;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1> Bangladesh </h1>
+	</body>
+</html>

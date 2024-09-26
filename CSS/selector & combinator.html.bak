@@ -1,0 +1,30 @@
+<DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<meta charset="UFT-8">
+		<title> Selector and combinators </title>
+		
+		<style>
+			
+			div ~ p{
+				color:green;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1> This is h1 </h1>
+		<h2> This is h1 </h2>
+		
+		<div>
+		<p id="para1 "> This is paragraph 1 </p>
+		<p class="para2 center"> This is paragraph 2</p>
+		<p> This is paragraph 3 </p>
+		<p> This is paragraph 4 </p>
+		</div>
+		<p> This is paragraph 5 </p>
+			<p> This is paragraph 5 </p>
+	</body>
+</html>

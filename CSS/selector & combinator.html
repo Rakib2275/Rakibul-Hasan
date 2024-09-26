@@ -1,0 +1,52 @@
+<DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<meta charset="UFT-8">
+		<title> Selector and combinators </title>
+		
+		<style>
+			h1{
+				background-color:green; <!--element/tag selector-->
+			}
+			
+			#para1{
+				background-color:pink; <!--id selector-->
+			}
+			.para2{
+				background-color:green;
+			}
+			.center{
+				text-align:center; <!--class-->
+			}
+			
+			*{
+				background-color:white; <!-- universal selector full body same work-->
+			}
+			
+			h1,h2{
+				background-color:red; <!--Grophing-->
+				color:white;
+			}
+			div p{
+				color:green;
+			}
+			
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1> This is h1 </h1>
+		<h2> This is h1 </h2>
+		
+		<div>
+		<p id="para1 "> This is paragraph 1 </p>
+		<p class="para2 center"> This is paragraph 2</p>
+		<p> This is paragraph 3 </p>
+		<p> This is paragraph 4 </p>
+		</div>
+		<p> This is paragraph 3 </p>
+		<p> This is paragraph 4 </p>
+	</body>
+</html>

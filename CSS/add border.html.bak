@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Learning Border Style </title>
+		
+		<style>
+			
+				h1,h2,h3{
+					border:20px green solid;
+					width:280px;
+					border-radius:20px;
+				}
+		</style>
+	</head>
+	<body>
+		
+		<h1> This is a heading 1</h1>
+		<h2> This is a heading 2</h2>
+		<h3> This is a heading 3</h3>
+	</body>
+</html>

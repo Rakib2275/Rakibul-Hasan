@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            max-width:  300px;
+            height: auto;
+            border: 2px solid black;
+
+            display: block;
+            margin: 0 auto;
+
+            margin-top: 100px;
+            border-radius: 50%;
+
+            position: relative;
+            animation-name: img-anim;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            
+        }
+        img:hover{
+            animation-name: img-anim;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes img-anim{
+            0%{
+                border-color: yellow;
+                top: 0;
+                left: 0;
+
+            }
+            50%{
+                border-color: green;
+                top: 100px;
+                left: 0;
+                opacity: 0.5;
+            }
+            100%{
+               border-color: red;
+               top: 0;
+               left: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="c:\Users\h\Pictures\WhatsApp Image 2024-08-17 at 15.51.30_e80da19d.jpg" alt="">
+</body>
+</html>
