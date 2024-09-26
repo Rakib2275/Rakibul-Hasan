@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+		<head>
+			<title> From </title>
+		</head>
+		
+		<body>
+			<h2>Registration from </h2>
+			
+				<form action="" method="post">
+					<div>
+						<label for="nsme"> Your Name</label>
+						<input name="name" id="name" type="text" >
+					</div> <br>
+					
+					<div>
+						<label for="email"> Your Email</label>
+					    <input name="Email"id="email"type="email" >
+					</div><br>
+					
+					<div>
+						
+						<label for="message"> Your Message</label> <br>
+						<textarea name="messege"id="message"cols="30" rows="10"></textarea>
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+		</body>
+</html>

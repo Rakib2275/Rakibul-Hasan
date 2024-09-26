@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+			<title> Html Table </title>
+	</head>
+	
+	<style>
+			table,td,th{
+				border:2px solid black;
+			}
+			
+			table{
+				border-collapse: collapse;
+				
+				
+			}
+	</style>
+
+	</head>
+	
+	<body>
+			<table>
+					<thead>
+							<th> ID </th>
+							<th> Name </th>
+							<th colspan="2"> Phone </th>
+					</thead>
+						<tbody>
+							<tr>
+								<td> 101 </td>
+								<td> Rakib </td>
+								<td rowspan="2"> 01889242275</td>
+								<td> 01814932676 </td>
+							</tr>
+							
+							<tr>
+								<td> 10 </td>
+								<td> Rajib </td>
+								
+								<td> 01813843635 </td>
+							</tr>
+						</tbody>
+			</table>
+	</body>
+</html>

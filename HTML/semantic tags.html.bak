@@ -1,0 +1,25 @@
+<DOCTYPE HTML>
+<html>
+
+	<head>
+		<title> Document </title>
+		
+		<style>
+			details[open] > summary{
+				background-color: aqua;
+				}
+		</style>
+	</head>
+	
+	<body>
+		<details>
+			<summary> summary here </summary>
+			A repository contains all of your project's files, revision history, and collaborator discussion.
+			
+		</details>
+		
+	<figure>
+		<img src="pictures/pc memo.jpg" alt="list">
+	</figure>
+	</body>
+</html>

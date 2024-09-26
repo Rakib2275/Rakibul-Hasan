@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+			<title> Video testing </title>
+	</head>
+	
+	<body>
+			<video controls>
+			
+				<source src="E:\Vedio\0816 (2)(1).mp4" type="video/mp4">
+				
+			</video>
+	</body>
+</html>
