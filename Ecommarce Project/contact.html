@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this  is an Ecommarce project foe making rakib express">
+    <title>Ecommarce Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <i class="fa fa-bars fa-2x" aria-hidden="true" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="./images/profile.jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-brand nav-link">Rakib Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="card.html" class="nav-link">
+                    <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                    Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" id="name" required autocomplete="email">
+                    </div>
+                    <div class="form-control flex-center"> 
+                        <label for="massege">Massege</label>
+                        <textarea name="massege" id="massege"></textarea>
+                    </div>
+                    
+                    <div class="form-control flex-center form-btn-filed"> 
+                        <button type="submit"  class="btn contact-btn">submit</button>
+                     </div>
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address</h4>
+                        <p>Hapurkhara</p>
+                        <p>Debidwar,Cumilla</p>
+
+                        <span>Call: </span>
+                        <a href="tel:+8801889242275">+8801889242275</a>
+                    </address>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3867642043397!2d90.94923787589285!3d23.554548896266105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375467dbd3c8c28d%3A0x49218d3fb56ffce8!2z4KaF4Kao4KeN4KakIOCmq-CmvuCmsOCnjeCmruCnh-CmuOCngA!5e0!3m2!1sen!2sbd!4v1725993854032!5m2!1sen!2sbd"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer start here-->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newslatter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2024 RAkib Express. All rights rserved</p>
+        </div>
+    </footer>
+     <!--footer start here-->
+
+     <script src="./script/index.js"></script>
+</body>
+</html>
