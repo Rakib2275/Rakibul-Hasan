@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My css table</title>
+
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,td{
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        th{
+            background-color: chartreuse;
+            height: 30px;
+        }
+        tr:nth-child(even){
+            background-color: grey;
+        }
+        tr:nth-child(odd){
+            background-color:cadetblue;
+        }
+        tr:hover{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Details</caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Phone</th>
+            <th>Bio</th>
+        </tr>
+        
+        <tr>
+            <td>1361</td>
+            <td>Rakib</td>
+            <td>5.0</td>
+            <td>01889242275</td>
+            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos accusantium, necessitatibus id labore architecto assumenda, minima laudantium perferendis doloribus cumque repellat incidunt dolores nisi animi. Similique corporis asperiores soluta fugiat.</td>
+        </tr>
+        
+        <tr>
+            
+            <td>1365</td>
+            <td>Rajib</td>
+            <td>5.0</td>
+            <td>01889242275</td>
+            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos accusantium, necessitatibus id labore architecto assumenda, minima laudantium perferendis doloribus cumque repellat incidunt dolores nisi animi. Similique corporis asperiores soluta fugiat.</td>
+        </tr>
+       
+        <tr>
+            <td>1756</td>
+            <td>sayed</td>
+            <td>5.0</td>
+            <td>01889242275</td>
+            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos accusantium, necessitatibus id labore architecto assumenda, minima laudantium perferendis doloribus cumque repellat incidunt dolores nisi animi. Similique corporis asperiores soluta fugiat.</td>
+        </tr>
+
+   
+    
+
+    </table>
+</body>
+</html>
